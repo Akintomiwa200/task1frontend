@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#main {
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(rgba(194, 50, 150, 0.4), rgba(0, 0, 0, 0.6));
+}
+
+
+#navbar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo {
+    color: black;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#images {
+    width: 20vw;
+    overflow: hidden;
+    height: 50vh;
+    border-radius: 50%
+}
+
+img {
+    width: 3024px;
+    height: 4032px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+#plan {
+    display: flex;
+    gap: 15em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#text {
+    width: 30vw;
+    word-break: break-all;
+    text-align: justify;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#goal {
+    width: 70vw;
+    word-break: break-all;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+#goal-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#foot {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#one {
+    font-size: 1.3em;
+    color: black;
+}
+
+#one:hover {
+    color: violet;
+    border-bottom: 2px solid violet;
+}
+
+#date {
+    font-size: 1.1em;
+    margin-right: 3em;
+}
+
+#display {
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+}
